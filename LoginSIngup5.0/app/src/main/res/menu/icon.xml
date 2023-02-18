@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        >
+    </item>
+
+
+    <item android:id="@+id/Ticket_Details"
+        android:title="Ticket Details"
+        android:icon="@drawable/ic_baseline_featured_play_list_24"
+        android:onClick="ticket"
+
+        >
+    </item>
+    <item android:id="@+id/About"
+        android:title="About"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:onClick="About"
+
+        >
+    </item>
+
+    <item android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:onClick="logout"
+        >
+    </item>
+
+</menu>
